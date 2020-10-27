@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LanguageHelper</string>
+    <string name="basics_activity">Colors</string>
+    <string name="conversations_activity">Basics Conversations</string>
+    <string name="numbers_activity">Numbers</string>
+    <string name="family_activity">Family Members</string>
+
+
+
+</resources>

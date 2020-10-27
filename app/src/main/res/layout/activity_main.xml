@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Family Members"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@android:color/holo_orange_light"/>
+
+    <Button
+        android:id="@+id/btnNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numbers"
+        app:layout_constraintEnd_toEndOf="@+id/btnFamily"
+        app:layout_constraintStart_toStartOf="@+id/btnFamily"
+        app:layout_constraintTop_toBottomOf="@+id/btnFamily"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:id="@+id/btnConversations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conversations"
+        app:layout_constraintEnd_toEndOf="@+id/btnNumbers"
+        app:layout_constraintStart_toStartOf="@+id/btnNumbers"
+        app:layout_constraintTop_toBottomOf="@+id/btnNumbers"
+        android:backgroundTint="@android:color/holo_orange_light"/>
+
+    <Button
+        android:id="@+id/btnBasics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colors"
+        app:layout_constraintEnd_toEndOf="@+id/btnConversations"
+        app:layout_constraintStart_toStartOf="@+id/btnConversations"
+        app:layout_constraintTop_toBottomOf="@+id/btnConversations"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
